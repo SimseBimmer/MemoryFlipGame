@@ -1,0 +1,56 @@
+* {
+  margin: 1px;
+  padding: 1px;
+}
+
+body {
+  font-family: "Titillium Web", serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: inherit;
+}
+
+p,
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+}
+
+.button-container button {
+  background-color: #27402c;
+  color: #fff;
+}
+
+.button-container button:hover {
+  background-color: #666;
+}
+
+
+
+.currentRoute {
+  color: #27402c;
+  transition: 200ms ease-in-out;
+  border: 2px solid #27402c;
+  width: fit-content;
+  margin: 0;
+  padding: 0 .5rem;
+  font-size: 1.4rem;
+}
+
+.currentRoute:hover {
+  letter-spacing: 2px;
+  border-right: 6px solid red;
+  border-bottom: 4px solid red;
+}
